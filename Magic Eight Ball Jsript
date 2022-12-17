@@ -1,0 +1,30 @@
+let userName = "Kunjan";
+userName ? console.log(`Hello, ${userName}!`) : console.log(`Hello Stranger!`);
+const userQuestion = "How is my fututre?";
+console.log(userQuestion);
+console.log(`${userName} asked: ${userQuestion}`);
+
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = "";
+
+switch (randomNumber) {
+  case 1:
+    eightball = "It is certain";
+  case 2:
+    eightball = "It is decidedly so";
+  case 3:
+    eightball = "Reply hazy try again";
+  case 4:
+    eightball = "Cannot predict now";
+  case 5:
+    eightball = "Do not count on it";
+  case 6:
+    eightball = "My sources say no";
+  case 7:
+    eightball = "Outlook not so good";
+  case 8:
+    eightball = "Signs point to yes";
+}
+
+console.log(`Magic Eightball: ${eightBall}`);
+
